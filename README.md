@@ -27,7 +27,7 @@ Since WaveyElytra is purely visual and fully client-side, it works on any server
 - While standing, the wings sway gently in gusts of wind, and waves run along them while walking and sprinting
 - The wings spread apart and never merge into a single piece
 - After you stop, the wings settle down smoothly, with inertia
-- While crouching, the wings lie along the bent back, with no shaking or wobbling
+- While crouching, the wings lie along the bent back
 
 <img width="400" height="212" alt="elytra (online-video-cutter com)" src="https://github.com/user-attachments/assets/21caf0d0-6b23-43eb-a9df-9b48a061ad9f" />
 
