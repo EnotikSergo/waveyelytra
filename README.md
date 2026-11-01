@@ -47,7 +47,7 @@ Since WaveyElytra is purely visual and fully client-side, it works on any server
 - In flight the wings meet in the middle of the back and spin like a rotor
 - The faster you fly, the faster the rotor spins
 - After landing the wings make a few more turns, gradually slowing down, and return to their place
-- Its own rotor sound, which can be turned off separately
+- Rotor sound, which can be turned off separately
 
 <img width="400" height="212" alt="helicopter (online-video-cutter com)" src="https://github.com/user-attachments/assets/c3910a24-d5b2-4586-be07-ec2f61686706" />
 
