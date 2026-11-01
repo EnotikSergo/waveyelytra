@@ -8,7 +8,7 @@
 		"EnotikSergo"
 	],
 	"contact": {
-		"sources": "https://github.com/EnotikSergo/wavey"
+		"sources": "https://github.com/EnotikSergo/waveyelytra"
 	},
 	"license": "MIT",
 	"icon": "assets/waveyelytra/icon.png",
@@ -26,7 +26,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.20.1",
-		"minecraft": "~26.3",
+		"minecraft": ">=26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	},
