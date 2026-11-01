@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "waveyelytra",
+	"version": "${version}",
+	"name": "WaveyElytra",
+	"description": "Replaces the static elytra with simulated wings.",
+	"authors": [
+		"EnotikSergo"
+	],
+	"contact": {
+		"sources": "https://github.com/EnotikSergo/wavey"
+	},
+	"license": "MIT",
+	"icon": "assets/waveyelytra/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+          "com.waveyelytra.elytra.ElytraClient"
+		],
+		"modmenu": [
+			"com.waveyelytra.elytra.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"waveyelytra.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

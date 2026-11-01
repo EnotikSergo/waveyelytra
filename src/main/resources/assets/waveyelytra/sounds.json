@@ -1,0 +1,7 @@
+{
+  "item.elytra.helicopter": {
+    "sounds": [
+      "waveyelytra:helicopter_loop"
+    ]
+  }
+}

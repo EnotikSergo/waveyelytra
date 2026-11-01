@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.waveyelytra.elytra.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"EquipmentLayerRendererAccessor",
+		"LocalPlayerMixin",
+		"WingsLayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
