@@ -38,7 +38,7 @@ Since WaveyElytra is purely visual and fully client-side, it works on any server
 - When boosting with a firework they make a few quick flaps
 - They flap on sharp turns
 - In a dive they tuck in against the body and sweep back, but never cross each other
-- All transitions are smooth, without jerks
+- All transitions are smooth
 
 <img width="400" height="212" alt="elytra (online-video-cutter com) (1)" src="https://github.com/user-attachments/assets/badf82f0-3a0d-4e77-b2cf-2a67c15b4fc6" />
 
