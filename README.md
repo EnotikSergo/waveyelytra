@@ -29,6 +29,8 @@ Since WaveyElytra is purely visual and fully client-side, it works on any server
 - After you stop, the wings settle down smoothly, with inertia
 - While crouching, the wings lie along the bent back, with no shaking or wobbling
 
+<img width="400" height="212" alt="elytra (online-video-cutter com)" src="https://github.com/user-attachments/assets/21caf0d0-6b23-43eb-a9df-9b48a061ad9f" />
+
 ### In Flight
 
 - The wings are rigid, with no waves: only the whole wing moves
@@ -38,12 +40,16 @@ Since WaveyElytra is purely visual and fully client-side, it works on any server
 - In a dive they tuck in against the body and sweep back, but never cross each other
 - All transitions are smooth, without jerks
 
+<img width="400" height="212" alt="elytra (online-video-cutter com) (1)" src="https://github.com/user-attachments/assets/badf82f0-3a0d-4e77-b2cf-2a67c15b4fc6" />
+
 ### Helicopter Mode
 
 - In flight the wings meet in the middle of the back and spin like a rotor
 - The faster you fly, the faster the rotor spins
 - After landing the wings make a few more turns, gradually slowing down, and return to their place
 - Its own rotor sound, which can be turned off separately
+
+<img width="400" height="212" alt="helicopter (online-video-cutter com)" src="https://github.com/user-attachments/assets/c3910a24-d5b2-4586-be07-ec2f61686706" />
 
 ### Settings
 
