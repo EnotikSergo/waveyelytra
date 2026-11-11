@@ -80,11 +80,14 @@ public final class WingRenderer {
 				continue;
 			}
 			Identifier texture = layer.usePlayerTexture() && playerTexture != null ? playerTexture : texture(layer);
-			RenderType renderType = glint ? RenderTypes.armorCutoutNoCullGlint(texture) : RenderTypes.armorCutoutNoCull(texture);
+			RenderType renderType = RenderTypes.armorCutoutNoCull(texture);
 			Geometry geometry = POOL[poolIndex];
 			poolIndex = (poolIndex + 1) % POOL.length;
 			geometry.set(sim, WingMask.forTexture(texture), partialTick, state, scale, light, color);
 			collector.order(order++).submitCustomGeometry(poseStack, renderType, geometry);
+			if (glint) {
+				collector.order(order++).submitCustomGeometry(poseStack, RenderTypes.armorEntityGlint(), geometry);
+			}
 			glint = false;
 		}
 		return true;
